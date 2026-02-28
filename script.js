@@ -21,21 +21,6 @@ if (navToggle && navMenu) {
 const yearEl = document.getElementById("year");
 if (yearEl) yearEl.textContent = new Date().getFullYear();
 
-// Embed toggles (for Figma preview)
-document.querySelectorAll("[data-open-embed]").forEach((btn) => {
-  btn.addEventListener("click", () => {
-    const targetId = btn.getAttribute("data-open-embed");
-    if (!targetId) return;
-
-    const embed = document.getElementById(targetId);
-    if (!embed) return;
-
-    const isHidden = embed.hasAttribute("hidden");
-    if (isHidden) embed.removeAttribute("hidden");
-    else embed.setAttribute("hidden", "");
-  });
-});
-
 // Copy email button
 const copyEmailBtn = document.getElementById("copyEmailBtn");
 if (copyEmailBtn) {
@@ -49,7 +34,6 @@ if (copyEmailBtn) {
       copyEmailBtn.textContent = "Copied!";
       setTimeout(() => (copyEmailBtn.textContent = oldText), 1200);
     } catch (e) {
-      // Fallback
       window.prompt("Copy this email:", email);
     }
   });

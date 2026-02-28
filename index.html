@@ -5,8 +5,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Gabrielle Arrache | Portfolio</title>
   <link rel="stylesheet" href="style.css" />
-  <meta name="description" content="Gabrielle Arrache — Business Analytics student portfolio featuring data, technology, and impact-driven projects." />
+  <meta name="description" content="Gabrielle Arrache — portfolio featuring data, technology, and impact-driven projects." />
 </head>
+
 <body>
   <!-- Header -->
   <header class="site-header" id="top">
@@ -25,23 +26,25 @@
         <ul class="nav-menu" id="navMenu">
           <li><a href="#projects">Projects</a></li>
           <li><a href="#about">About</a></li>
-          <li><a href="#links">Links</a></li>
+          <li><a href="#links">GitHub & LinkedIn</a></li>
           <li><a href="#contact">Contact</a></li>
         </ul>
       </nav>
     </div>
   </header>
 
-  <!-- Hero -->
   <main>
+    <!-- Hero -->
     <section class="hero">
       <div class="container hero-inner">
         <div class="hero-copy">
           <p class="kicker">Business Analytics • Data • Social Impact</p>
+
           <h1>Technology and business — especially data — are powerful tools to drive impact.</h1>
+
           <p class="subhead">
-            I build projects that combine analytics, product thinking, and sustainability/social impact.
-            Here are a few highlights.
+            I’m a Business Analytics student at Babson College. I build projects that combine analytics,
+            product thinking, and social impact — from interactive prototypes to data storytelling.
           </p>
 
           <div class="hero-cta">
@@ -54,20 +57,25 @@
             <span class="tag">SQL</span>
             <span class="tag">Python</span>
             <span class="tag">Data Viz</span>
-            <span class="tag">Product</span>
+            <span class="tag">UX / Product</span>
             <span class="tag">Sustainability</span>
           </div>
         </div>
 
-        <div class="hero-card" role="img" aria-label="Profile image placeholder">
-          <!-- Replace this with your own image -->
-          <div class="avatar">
-            <span class="avatar-initials">GA</span>
-          </div>
+        <div class="hero-card">
+          <!-- Put your photo in the same folder as index.html and name it profile.jpg -->
+          <img class="profile-photo" src="profile.jpg" alt="Gabrielle Arrache" />
+
           <div class="hero-card-text">
             <p class="hero-name">Gabrielle Arrache</p>
             <p class="hero-title">Business Analytics Student</p>
             <p class="hero-loc">Babson College</p>
+
+            <div class="mini-links">
+              <a class="mini-link" target="_blank" rel="noreferrer" href="https://github.com/Gabrielle1810">GitHub</a>
+              <span class="dot">•</span>
+              <a class="mini-link" target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/gabrielle-arrache/">LinkedIn</a>
+            </div>
           </div>
         </div>
       </div>
@@ -78,11 +86,11 @@
       <div class="container">
         <div class="section-head">
           <h2>Projects</h2>
-          <p>Selected work across data, product, and social impact.</p>
+          <p>Selected work across technology, product, data, and social impact.</p>
         </div>
 
         <div class="grid cards">
-          <!-- Project 1 -->
+          <!-- Project 1: OBT Game (Figma Embed) -->
           <article class="card">
             <div class="card-top">
               <span class="pill">Technology • Product</span>
@@ -93,109 +101,120 @@
             </div>
 
             <ul class="bullets">
-              <li>Brazilian Technology Olympiad (OBT) — Bronze award (add details if you want)</li>
-              <li>Tools: Figma, UX, game logic, sustainability education</li>
+              <li>Prototype created in Figma (interactive)</li>
+              <li>Focus: learning experience + engagement</li>
             </ul>
 
-            <div class="card-actions">
-              <a class="btn small" target="_blank" rel="noreferrer"
-                 href="https://www.figma.com/proto/YOUR_PROTOTYPE_ID">
-                Open Prototype
-              </a>
-              <button class="btn small ghost" data-open-embed="figmaEmbed">
-                Preview Here
-              </button>
-            </div>
-
-            <!-- Embedded preview (hidden until user clicks Preview Here) -->
-            <div class="embed-wrap" id="figmaEmbed" hidden>
-              <!-- Tip: Use Figma's "Get embed code" if you want a perfect embed link -->
-              <iframe
-                title="Figma Prototype"
-                loading="lazy"
-                allowfullscreen
-                src="https://www.figma.com/embed?embed_host=share&url=https://www.figma.com/proto/YOUR_PROTOTYPE_ID"
-              ></iframe>
-            </div>
+            <details class="details">
+              <summary class="details-summary">Preview interactive prototype</summary>
+              <div class="embed-wrap">
+                <iframe
+                  title="OBT Sustainability Game Prototype (Figma)"
+                  loading="lazy"
+                  src="https://embed.figma.com/proto/1pHPJolAAeE42yAbZ7soI1/DeepBlue-team-library?page-id=0%3A1&node-id=677-981&starting-point-node-id=677%3A981&embed-host=share"
+                  allowfullscreen
+                ></iframe>
+              </div>
+            </details>
           </article>
 
-          <!-- Project 2 -->
+          <!-- Project 2: Uber Hackathon (Figma Embed) -->
           <article class="card">
             <div class="card-top">
-              <span class="pill">Data • Sustainability</span>
-              <h3>NASA Space Apps Challenge</h3>
+              <span class="pill">Technology • UX</span>
+              <h3>Uber Virtual Global Hackathon (Figma Prototype)</h3>
               <p class="muted">
-                Project using open data to explore climate/flood impacts and communicate insights through storytelling and visualization.
+                Interactive prototype developed for a virtual global hackathon experience, focused on product flow and user interaction.
               </p>
             </div>
 
             <ul class="bullets">
-              <li>Focus: mapping + data storytelling (ex: floods in Rio Grande do Sul)</li>
-              <li>Skills: data visualization, GIS, systems thinking</li>
+              <li>Prototype created in Figma (interactive)</li>
+              <li>Focus: product flow, usability, iteration</li>
+            </ul>
+
+            <details class="details">
+              <summary class="details-summary">Preview interactive prototype</summary>
+              <div class="embed-wrap">
+                <iframe
+                  title="Uber Global Hackathon Prototype (Figma)"
+                  loading="lazy"
+                  src="https://embed.figma.com/proto/5It7tK5cG43PogstIvIFvt/Virtual-Global-Hackathon--Copy-?page-id=0%3A1&node-id=111-461&p=f&viewport=-396%2C299%2C0.3&scaling=scale-down&content-scaling=fixed&starting-point-node-id=111%3A461&embed-host=share"
+                  allowfullscreen
+                ></iframe>
+              </div>
+            </details>
+          </article>
+
+          <!-- Project 3: NASA Space Apps -->
+          <article class="card">
+            <div class="card-top">
+              <span class="pill">Data • Sustainability</span>
+              <h3>NASA Space Apps Challenge — Flood Storytelling</h3>
+              <p class="muted">
+                Data storytelling project exploring flooding impacts using open datasets and a clear narrative experience.
+              </p>
+            </div>
+
+            <ul class="bullets">
+              <li>Interactive site: before/after exploration</li>
+              <li>Recognition: listed as Global Nominee team</li>
             </ul>
 
             <div class="card-actions">
               <a class="btn small" target="_blank" rel="noreferrer"
-                 href="https://YOUR_PROJECT_LINK.com">
-                Project Page
+                 href="https://renearthur.github.io/RS-flood/before.html">
+                Open Project Site
               </a>
               <a class="btn small ghost" target="_blank" rel="noreferrer"
-                 href="https://github.com/YOUR_GITHUB_USERNAME/YOUR_REPO">
-                GitHub Repo
+                 href="https://www.spaceappschallenge.org/nasa-space-apps-2024/find-a-team/inovadores-gauderios/?tab=details">
+                NASA Global Nominee Page
               </a>
             </div>
           </article>
 
-          <!-- Project 3 -->
+          <!-- Project 4: Juntas Por Eles -->
           <article class="card">
             <div class="card-top">
               <span class="pill">Social Impact • Entrepreneurship</span>
               <h3>Juntas Por Eles</h3>
               <p class="muted">
-                Social-impact initiative focused on animal welfare, adoption, and fundraising support through community-driven action.
+                Social-impact initiative supporting animal welfare through community outreach, awareness, and action.
               </p>
             </div>
 
             <ul class="bullets">
-              <li>Role: Founder / Strategy lead (edit as needed)</li>
-              <li>Work: outreach strategy, project structure, impact communication</li>
+              <li>Focus: community engagement + impact communication</li>
+              <li>Platform and visual storytelling</li>
             </ul>
 
             <div class="card-actions">
               <a class="btn small" target="_blank" rel="noreferrer"
-                 href="https://YOUR_PROJECT_LINK.com">
-                Learn More
-              </a>
-              <a class="btn small ghost" target="_blank" rel="noreferrer"
-                 href="https://instagram.com/YOUR_HANDLE">
-                Instagram
+                 href="https://www.instagram.com/juntasporeles/?hl=en">
+                Instagram Page
               </a>
             </div>
           </article>
 
-          <!-- Project 4 -->
+          <!-- Project 5: Branding Guidelines -->
           <article class="card">
             <div class="card-top">
               <span class="pill">Brand • Design Systems</span>
               <h3>First-Gen Branding Guidelines</h3>
               <p class="muted">
-                A cohesive visual identity system developed to support first-generation student success initiatives.
+                Branding guideline work to support a cohesive identity: messaging, templates, and consistent visuals.
               </p>
             </div>
 
             <ul class="bullets">
-              <li>Deliverables: logo concepts, color palette, typography, templates</li>
-              <li>Skills: brand strategy, design consistency, messaging</li>
+              <li>Deliverables: guidelines + visual system</li>
+              <li>Focus: clarity, consistency, and community feel</li>
             </ul>
 
             <div class="card-actions">
               <a class="btn small" target="_blank" rel="noreferrer"
-                 href="https://YOUR_CANVA_OR_PDF_LINK.com">
-                View Guidelines
-              </a>
-              <a class="btn small ghost" target="_blank" rel="noreferrer"
-                 href="https://YOUR_CASE_STUDY_LINK.com">
-                Case Study
+                 href="https://www.canva.com/design/DAG_LKYwffg/h7EIgoCG5lCwru6z0EkPxA/edit?utm_content=DAG_LKYwffg&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton">
+                View Guidelines (Canva)
               </a>
             </div>
           </article>
@@ -210,22 +229,21 @@
           <div>
             <h2>About</h2>
             <p>
-              I’m a Business Analytics student interested in building data-driven solutions with real-world impact.
-              I enjoy turning messy information into clear stories, dashboards, and decisions — especially in projects connected
-              to sustainability and social good.
+              I’m a Business Analytics student at Babson College, passionate about using data to create real-world impact.
+              I enjoy building projects that connect technology + people — whether it’s an interactive prototype, a data story, or a mission-driven initiative.
             </p>
             <p class="muted">
-              Areas: analytics, reporting, product thinking, communication, and community-driven work.
+              I care about clear communication, practical solutions, and making complex information easier to understand.
             </p>
           </div>
 
           <div class="about-box">
-            <h3>What I’m focusing on</h3>
+            <h3>Focus areas</h3>
             <ul class="bullets">
-              <li>Data analysis & visualization (R / SQL / Python)</li>
-              <li>Impact projects (sustainability + social impact)</li>
-              <li>Product mindset (user needs → solution → iteration)</li>
-              <li>Clear communication (stories + slides + dashboards)</li>
+              <li>Analytics & reporting (R / SQL / Python)</li>
+              <li>Data storytelling & visualization</li>
+              <li>Product mindset (users → iteration → delivery)</li>
+              <li>Social impact & sustainability</li>
             </ul>
           </div>
         </div>
@@ -237,25 +255,25 @@
       <div class="container">
         <div class="section-head">
           <h2>GitHub & LinkedIn</h2>
-          <p>Find my work, repositories, and experience.</p>
+          <p>Explore my repositories and professional experience.</p>
         </div>
 
         <div class="grid link-cards">
-          <a class="link-card" target="_blank" rel="noreferrer" href="https://github.com/YOUR_GITHUB_USERNAME">
+          <a class="link-card" target="_blank" rel="noreferrer" href="https://github.com/Gabrielle1810">
             <div class="icon" aria-hidden="true">⌁</div>
             <div>
               <h3>GitHub</h3>
-              <p class="muted">Projects, code, and experiments.</p>
-              <p class="mono">github.com/YOUR_GITHUB_USERNAME</p>
+              <p class="muted">Code, projects, and experiments.</p>
+              <p class="mono">github.com/Gabrielle1810</p>
             </div>
           </a>
 
-          <a class="link-card" target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/YOUR_LINKEDIN_HANDLE/">
+          <a class="link-card" target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/gabrielle-arrache/">
             <div class="icon" aria-hidden="true">in</div>
             <div>
               <h3>LinkedIn</h3>
               <p class="muted">Experience, leadership, and updates.</p>
-              <p class="mono">linkedin.com/in/YOUR_LINKEDIN_HANDLE</p>
+              <p class="mono">linkedin.com/in/gabrielle-arrache</p>
             </div>
           </a>
         </div>
@@ -267,18 +285,18 @@
       <div class="container">
         <div class="section-head">
           <h2>Contact</h2>
-          <p>If you’d like to connect, feel free to reach out.</p>
+          <p>Let’s connect.</p>
         </div>
 
         <div class="contact-row">
-          <a class="btn primary" href="mailto:YOUR_EMAIL@example.com">Email Me</a>
-          <button class="btn ghost" id="copyEmailBtn" data-email="YOUR_EMAIL@example.com">
+          <a class="btn primary" href="mailto:garrache1@babson.edu">Email Me</a>
+          <button class="btn ghost" id="copyEmailBtn" data-email="garrache1@babson.edu">
             Copy Email
           </button>
         </div>
 
         <p class="muted tiny">
-          Tip: If you host this on GitHub Pages, replace the email with your real one and update all project links.
+          Email: <span class="mono">garrache1@babson.edu</span>
         </p>
       </div>
     </section>
@@ -287,7 +305,7 @@
   <!-- Footer -->
   <footer class="site-footer">
     <div class="container footer-inner">
-      <p class="muted tiny">© <span id="year"></span> Gabrielle Arrache. Built with HTML/CSS/JS.</p>
+      <p class="muted tiny">© <span id="year"></span> Gabrielle Arrache.</p>
       <a class="back-to-top" href="#top">Back to top ↑</a>
     </div>
   </footer>
